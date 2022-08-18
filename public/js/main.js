@@ -132,6 +132,13 @@
     }
   });
 
+  // Get this working. The gist: scrollto(window.location.hash) if here is clicked. Right?
+  // window.addEventListener('load', () => {
+  //   if (window.location.hash) {
+  //     let initial
+  //   }
+  // })
+
   /**
    * Skills animation
    */
