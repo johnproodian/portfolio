@@ -142,19 +142,19 @@
   /**
    * Skills animation
    */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
+  // let skilsContent = select('.skills-content');
+  // if (skilsContent) {
+  //   new Waypoint({
+  //     element: skilsContent,
+  //     offset: '80%',
+  //     handler: function(direction) {
+  //       let progress = select('.progress .progress-bar', true);
+  //       progress.forEach((el) => {
+  //         el.style.width = el.getAttribute('aria-valuenow') + '%'
+  //       });
+  //     }
+  //   })
+  // }
 
   /**
    * Porfolio isotope and filter
@@ -187,40 +187,40 @@
   /**
    * Initiate portfolio lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
+  // const portfolioLightbox = GLightbox({
+  //   selector: '.portfolio-lightbox'
+  // });
 
-  /**
-   * Initiate portfolio details lightbox 
-   */
-  const portfolioDetailsLightbox = GLightbox({
-    selector: '.portfolio-details-lightbox',
-    width: '90%',
-    height: '90vh'
-  });
+  // /**
+  //  * Initiate portfolio details lightbox 
+  //  */
+  // const portfolioDetailsLightbox = GLightbox({
+  //   selector: '.portfolio-details-lightbox',
+  //   width: '90%',
+  //   height: '90vh'
+  // });
 
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
   /**
    * Initiate Pure Counter 
    */
-  new PureCounter();
+  // new PureCounter();
 
 })()
 
