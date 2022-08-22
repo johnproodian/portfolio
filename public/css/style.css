@@ -884,7 +884,7 @@ section .container {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 0;
+  padding: 0 25px 0 25px;
   margin: 0;
 }
 
@@ -974,7 +974,10 @@ section .container {
 
 .portfolio-details .portfolio-info p {
   font-size: 15px;
-  padding: 15px 0 0 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-info .tech {
+  color: #63eda3;
 }
 
 @media (max-width: 992px) {
