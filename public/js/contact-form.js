@@ -1,13 +1,9 @@
 // import emailjs from 'emailjs';
 const privateKey = 'b6xkrzPfXfnTE3OME';
 const contactFormEl = document.getElementById('contact-form');
-const inputs = document.querySelectorAll("#name", "#email", "#subject", "#message");
-console.log(inputs);
-
-
 
 const useEmailJS = () => {
-    console.log(inputs);
+    // console.log(inputs);
     event.preventDefault();
     emailjs.sendForm("contact_service", "contact_template", event.target, privateKey)
         .then(() => {
@@ -21,6 +17,8 @@ const useEmailJS = () => {
             console.log('Failed...', error);
 
             alert("Hm. That didn't work. Why don't you just email me at john.proodian@gmail.com?")
+
+            contactFormEl.reset();
     });
 };
 
