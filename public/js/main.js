@@ -132,30 +132,6 @@
     }
   });
 
-  // Get this working. The gist: scrollto(window.location.hash) if here is clicked. Right?
-  // window.addEventListener('load', () => {
-  //   if (window.location.hash) {
-  //     let initial
-  //   }
-  // })
-
-  /**
-   * Skills animation
-   */
-  // let skilsContent = select('.skills-content');
-  // if (skilsContent) {
-  //   new Waypoint({
-  //     element: skilsContent,
-  //     offset: '80%',
-  //     handler: function(direction) {
-  //       let progress = select('.progress .progress-bar', true);
-  //       progress.forEach((el) => {
-  //         el.style.width = el.getAttribute('aria-valuenow') + '%'
-  //       });
-  //     }
-  //   })
-  // }
-
   /**
    * Porfolio isotope and filter
    */
@@ -201,49 +177,9 @@
   // });
 
   /**
-   * Portfolio details slider
-   */
-  // new Swiper('.portfolio-details-slider', {
-  //   speed: 400,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   }
-  // });
-
-  /**
    * Initiate Pure Counter 
    */
-  // new PureCounter();
+  new PureCounter();
 
 })()
-
-// const form = document.getElementById("contact-form");
-
-// const formEvent = form.addEventListener("submit", (event) => {
-//   event.preventDefault();
-
-//   const formName = form.getElementById('name').value;
-//   console.log(formName);
-
-//   let mail = new FormData(form);
-
-//   sendMail(mail);
-// });
-
-// const sendMail = (mail) => {
-//   fetch("/send", {
-//     method: "post",
-//     body: mail
-//   })
-//   .then((response) => {
-//     return response.json();
-//   });
-// };
 
