@@ -176,10 +176,5 @@
   //   height: '90vh'
   // });
 
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
-
 })()
 
