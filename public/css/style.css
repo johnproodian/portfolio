@@ -1150,6 +1150,10 @@ section .container {
   background: #15bb62;
 }
 
+.result-message {
+  background-color: white;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);

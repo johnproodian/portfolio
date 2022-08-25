@@ -27,6 +27,10 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
   <!-- =======================================================
   * Template Name: Personal - v4.8.1
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -541,8 +545,9 @@
           </div>
         </div> -->
       </div>
-
-      <form id="contact-form" action="send" method="post" role="form" class="php-email-form mt-4" enctype="multipart/form-data">
+      <!-- action="send" method="post" -->
+      <!-- action="mailto:john.proodian@gmail.com" -->
+      <form id="contact-form"  action="" role="form"  class="php-email-form mt-4" enctype="multipart/form-data">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="yourName" class="form-control" id="name" placeholder="Your Name" required>
@@ -579,6 +584,7 @@
 
   <!-- Template Main JS File -->
   <script src="/js/main.js"></script>
+  <script src="/js/contact-form.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
 
 

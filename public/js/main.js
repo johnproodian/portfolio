@@ -224,23 +224,26 @@
 
 })()
 
-const form = document.getElementById("contact-form");
+// const form = document.getElementById("contact-form");
 
-const formEvent = form.addEventListener("submit", (event) => {
-  event.preventDefault();
+// const formEvent = form.addEventListener("submit", (event) => {
+//   event.preventDefault();
 
-  let mail = new FormData(form);
+//   const formName = form.getElementById('name').value;
+//   console.log(formName);
 
-  sendMail(mail);
-});
+//   let mail = new FormData(form);
 
-const sendMail = (mail) => {
-  fetch("/send", {
-    method: "post",
-    body: mail
-  })
-  .then((response) => {
-    return response.json();
-  });
-};
+//   sendMail(mail);
+// });
+
+// const sendMail = (mail) => {
+//   fetch("/send", {
+//     method: "post",
+//     body: mail
+//   })
+//   .then((response) => {
+//     return response.json();
+//   });
+// };
 
