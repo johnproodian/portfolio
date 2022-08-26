@@ -176,5 +176,17 @@
   //   height: '90vh'
   // });
 
+  // const windowWidthStyling = () => {
+  //   if (window.innerWidth <= 992 ) {
+  //     let els = document.querySelectorAll(".app-desc");
+  //     else.forEach(el => {el.classList.add("")})
+  //   }
+  // }
+
+  // window.addEventListener('resize', windowWidthStyling);
+  // // window.onresize = (event) => {
+  // //   console.log(window.innerWidth);
+  // }
+
 })()
 
