@@ -921,6 +921,19 @@ section .container {
   right: 15px;
 }
 
+@media (max-width: 1200px) {
+  .app-desc {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .app-br {
+    display: none;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/

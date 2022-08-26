@@ -176,10 +176,15 @@
   //   height: '90vh'
   // });
 
+  const portWrapEl = document.querySelector('.portfolio-wrap');
+  if ( portWrapEl.innerWidth > 0) {
+    console.log(portWrapEl.innerWidth);
+  }
+
   // const windowWidthStyling = () => {
   //   if (window.innerWidth <= 992 ) {
-  //     let els = document.querySelectorAll(".app-desc");
-  //     else.forEach(el => {el.classList.add("")})
+  //     // let els = document.querySelectorAll(".app-desc");
+  //     // else.forEach(el => {el.classList.add("")})
   //   }
   // }
 
