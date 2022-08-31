@@ -921,19 +921,35 @@ section .container {
   right: 15px;
 }
 
+.app-br {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .app-desc {
     display: none;
   }
-}
 
-@media (max-width: 1400px) {
+  .app-br-2 {
+    display: none;
+  }
+
   .app-br {
+    display: block;
+  }
+
+  .app-br-4 {
     display: none;
   }
 }
 
+@media (min-width: 12001px) and (max-width: 1400px) {
+  .app-br {
+    display: none;
+  }
 
+ 
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
